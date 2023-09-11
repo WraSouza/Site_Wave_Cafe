@@ -1,0 +1,7 @@
+services:
+  nginx:
+    build: .
+    image: containersite
+    ports:
+      - 80:80
+    container_name: dockercompose
